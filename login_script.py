@@ -3,7 +3,7 @@ import requests
 username = 'your urp id'
 password = 'your urp password'
 ip = 'your ip'
-url = 'https://10.108.255.249/include/auth_action.php'
+url = 'http://10.108.255.249/include/auth_action.php'
 
 r = requests.post(
     url,
